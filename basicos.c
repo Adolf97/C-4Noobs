@@ -10,16 +10,25 @@ int main()
 		sumar 1\n Para restar 2\n Para multiplicar 3\n y Para dividir
 		4");
 	scanf("%d", &operacion);
-	if(operacion == 1) {
+	if(operacion == 1) 
+	{
 		resultado = num1+num2;
 	}
-	if(operacion == 2) {
+	if(operacion == 2) 
+	{
 		resultado = num1-num2;
 	}
-	if(operacion == 3) {
+	if(operacion == 3) 
+	{
 		resultado = num1*num2;
-	}else {
+	}
+	if(operacion == 4)
+	{
 		resultado = num1/num2;
+	}
+	if(operacion > 4)
+	{
+		printf("No es una operación válida");
 	}
 	
 	printf("El resultado es: %.2f", resultado);
