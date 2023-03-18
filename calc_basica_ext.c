@@ -43,4 +43,6 @@ int main()
     {
         printf("no es una operación válida");
     }
+    
+    printf("El resultado es: %.2f", );
 }
